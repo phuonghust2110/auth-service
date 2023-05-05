@@ -1,0 +1,21 @@
+###
+POST http://localhost:3000/users/register
+Content-Type: application/json
+
+{
+    "email" : "phamphuong0002@gmail.com",
+    "password" : "21102001"
+}
+
+###
+POST http://localhost:3000/users/login
+Content-Type: application/json
+
+{
+    "email" : "phamphuong0001@gmail.com",
+    "password" : "21102001"
+}
+
+###
+GET http://localhost:3000/users/getUser
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBoYW1waHVvbmcwMDAxQGdtYWlsLmNvbSIsImlhdCI6MTY4MDg1OTMxNiwiZXhwIjoxNjgwODYyOTE2fQ.QT6GdwOtvcOt_csiHF5HIMc2i1XFAF_JxDb_0iPRdic
